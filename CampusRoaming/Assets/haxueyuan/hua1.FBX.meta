@@ -1,0 +1,634 @@
+fileFormatVersion: 2
+guid: 374e2eabe61afee44bb5715b23c4a797
+timeCreated: 1524572735
+licenseType: Free
+ModelImporter:
+  serializedVersion: 22
+  fileIDToRecycleName:
+    100000: //RootNode
+    100002: JZ01
+    100004: JZ02
+    100006: JZ03
+    100008: JZ04
+    100010: JZ05
+    100012: JZ06
+    100014: JZ07
+    100016: JZ08
+    100018: JZ09
+    100020: JZ10
+    100022: SHU01
+    100024: SHU02
+    100026: SHU03
+    100028: SHU04
+    100030: SHU05
+    100032: SHU06
+    100034: SHU07
+    100036: SHU08
+    100038: SHU09
+    100040: SHU10
+    100042: SHU11
+    100044: "\u3000\uE813\uE811"
+    100046: "\uE814\uE812"
+    400000: //RootNode
+    400002: JZ01
+    400004: JZ02
+    400006: JZ03
+    400008: JZ04
+    400010: JZ05
+    400012: JZ06
+    400014: JZ07
+    400016: JZ08
+    400018: JZ09
+    400020: JZ10
+    400022: SHU01
+    400024: SHU02
+    400026: SHU03
+    400028: SHU04
+    400030: SHU05
+    400032: SHU06
+    400034: SHU07
+    400036: SHU08
+    400038: SHU09
+    400040: SHU10
+    400042: SHU11
+    400044: "\u3000\uE813\uE811"
+    400046: "\uE814\uE812"
+    2100000: 'Material #286'
+    2100002: 'Material #280'
+    2100004: 'Material #302'
+    2100006: 'Material #140'
+    2100008: 'Material #235'
+    2100010: 'Material #244'
+    2100012: 'Material #204'
+    2100014: 'Material #160'
+    2100016: 'Material #272'
+    2100018: 'Material #206'
+    2100020: 'Material #268'
+    2100022: 'Material #186'
+    2100024: 'Material #174'
+    2100026: 'Material #335'
+    2100028: 'Material #182'
+    2100030: 'Material #339'
+    2100032: 'Material #264'
+    2100034: 'Material #122'
+    2100036: 'Material #156'
+    2100038: 'Material #136'
+    2100040: 'Material #282'
+    2100042: 'Material #276'
+    2100044: 'Material #142'
+    2100046: 'Material #270'
+    2100048: 'Material #290'
+    2100050: 'Material #170'
+    2100052: 'Material #168'
+    2100054: 'Material #132'
+    2100056: 'Material #118'
+    2100058: 'Material #207'
+    2100060: 'Material #262'
+    2100062: 'Material #116'
+    2100064: 'Material #194'
+    2100066: 'Material #225'
+    2100068: 'Material #223'
+    2100070: 'Material #190'
+    2100072: 'Material #130'
+    2100074: 'Material #128'
+    2100076: 'Material #115'
+    2100078: 'Material #109'
+    2100080: 'Material #107'
+    2100082: 'Material #288'
+    2100084: 'Material #126'
+    2100086: 'Material #152'
+    2100088: 'Material #164'
+    2100090: 'Material #89'
+    2100092: 'Material #2447'
+    2100094: 'Material #103'
+    2100096: 'Material #47'
+    2100098: 'Material #148'
+    2100100: 'Material #113'
+    2100102: 'Material #212'
+    2100104: 'Material #227'
+    2100106: 'Material #188'
+    2100108: 'Material #192'
+    2100110: 'Material #210'
+    2100112: 'Material #208'
+    2100114: 'Material #213'
+    2100116: 'Material #215'
+    2100118: 'Material #217'
+    2100120: 'Material #219'
+    2100122: 'Material #221'
+    2100124: 'Material #102'
+    2100126: 'Material #266'
+    2100128: 'Material #124'
+    2100130: 'Material #138'
+    2100132: 'Material #284'
+    2100134: 'Material #274'
+    2100136: 'Material #146'
+    2100138: 'Material #144'
+    2100140: 'Material #150'
+    2100142: 'Material #158'
+    2100144: 'Material #278'
+    2100146: 'Material #303'
+    2100148: 'Material #176'
+    2100150: 'Material #331'
+    2100152: 'Material #184'
+    2100154: 'Material #337'
+    2100156: 'Material #196'
+    2100158: 'Material #260'
+    2100160: 'Material #200'
+    2100162: 'Material #237'
+    2100164: 'Material #229'
+    2100166: 'Material #120'
+    2100168: 'Material #248'
+    2100170: 'Material #258'
+    2100172: 'Material #238'
+    2100174: 'Material #242'
+    2100176: 'Material #256'
+    2100178: 'Material #249'
+    2100180: 'Material #251'
+    2100182: 'Material #252'
+    2100184: 'Material #289'
+    2100186: 'Material #327'
+    2100188: 'Material #325'
+    2100190: 'Material #329'
+    2100192: 'Material #307'
+    2100194: 'Material #305'
+    2100196: 'Material #309'
+    2100198: 'Material #311'
+    2100200: 'Material #162'
+    2100202: 'Material #178'
+    2100204: 'Material #180'
+    2100206: 'Material #172'
+    2100208: 'Material #56'
+    2100210: 'Material #323'
+    2100212: 'Material #321'
+    2100214: 'Material #315'
+    2100216: 'Material #313'
+    2100218: 'Material #333'
+    2100220: 'Material #44'
+    2100222: 'Material #42'
+    2100224: 'Material #3215'
+    2100226: 'Material #3217'
+    2100228: 'Material #1403'
+    2100230: 'Material #38'
+    2100232: 'Material #46'
+    2100234: 'Material #1319'
+    2100236: 'Material #1318'
+    2100238: 'Material #2450'
+    2100240: 'Material #2454'
+    2100242: 'Material #1414'
+    2100244: 'Material #2462'
+    2100246: 'Material #49'
+    2100248: 'Material #2464'
+    2100250: 'Material #2452'
+    2100252: 'Material #2448'
+    2100254: 'Material #1412'
+    2100256: 'Material #2460'
+    2100258: 'Material #52'
+    2100260: 'Material #2440'
+    2100262: 'Material #2458'
+    2100264: 'Material #2456'
+    2100266: 'Material #2468'
+    2100268: 'Material #1352'
+    2100270: 'Material #1361'
+    2100272: 'Material #1356'
+    2100274: 'Material #1354'
+    2100276: 'Material #1355'
+    2100278: 'Material #1392'
+    2100280: 'Material #1364'
+    2100282: 'Material #1383'
+    2100284: 'Material #2474'
+    2100286: 'Material #1367'
+    2100288: 'Material #1369'
+    2100290: 'Material #27'
+    2100292: 'Material #2477'
+    2100294: 'Material #1386'
+    2100296: 'Material #1385'
+    2100298: 'Material #1371'
+    2100300: 'Material #1381'
+    2100302: 'Material #1389'
+    2100304: 'Material #1388'
+    2100306: 'Material #1366'
+    2100308: 'Material #2472'
+    2100310: 'Material #2475'
+    2100312: 'Material #2478'
+    2100314: 'Material #1404'
+    2100316: 'Material #3096'
+    2100318: 'Material #1469'
+    2100320: 'Material #1467'
+    2100322: 'Material #1417'
+    2100324: 'Material #1459'
+    2100326: 'Material #1461'
+    2100328: 'Material #1465'
+    2100330: 'Material #1466'
+    2100332: 'Material #1416'
+    2100334: 'Material #1472'
+    2100336: 'Material #1476'
+    2100338: 'Material #1485'
+    2100340: 'Material #1490'
+    2100342: 'Material #2466'
+    2100344: 'Material #1484'
+    2100346: 'Material #1542'
+    2100348: 'Material #1491'
+    2100350: 'Material #1543'
+    2100352: 'Material #1544'
+    2100354: 'Material #1458'
+    2100356: 'Material #1419'
+    2100358: 'Material #2145'
+    2100360: 'Material #2483'
+    2100362: 'Material #2485'
+    2100364: 'Material #2492'
+    2100366: 'Material #3087'
+    2100368: 'Material #3091'
+    2100370: 'Material #3089'
+    2100372: 'Material #3093'
+    2100374: 'Material #3218'
+    2100376: 'Material #3232'
+    2100378: 'Material #3220'
+    2100380: 'Material #3219'
+    2100382: 'Material #3234'
+    2100384: 'Material #3424'
+    2100386: 'Material #3334'
+    2100388: 'Material #3613'
+    2100390: 'Material #3611'
+    2100392: 'Material #3615'
+    2100394: 'Material #3619'
+    2100396: 'Material #3718'
+    2100398: 'Material #3842'
+    2100400: 'Material #3840'
+    2100402: 'Material #87'
+    2100404: 'Material #75'
+    2100406: 'Material #85'
+    2100408: 'Material #77'
+    2100410: 'Material #81'
+    2100412: 'Material #79'
+    2100414: 'Material #60'
+    2100416: 'Material #73'
+    2100418: 'Material #1321'
+    2100420: 'Material #1337'
+    2100422: 'Material #1323'
+    2100424: 'Material #1338'
+    2100426: 'Material #1395'
+    2100428: 'Material #1394'
+    2100430: 'Material #1397'
+    2100432: 'Material #1396'
+    2100434: 'Material #58'
+    2100436: 'Material #368'
+    2100438: 'Material #395'
+    2100440: 'Material #391'
+    2100442: 'Material #387'
+    2100444: 'Material #370'
+    2100446: 'Material #363'
+    2100448: 'Material #393'
+    2100450: 'Material #372'
+    2100452: 'Material #386'
+    2100454: 'Material #340'
+    2100456: 'Material #366'
+    2100458: 'Material #389'
+    2100460: 'Material #361'
+    2100462: 'Material #355'
+    2100464: 'Material #378'
+    2100466: 'Material #376'
+    2100468: 'Material #374'
+    2100470: 'Material #384'
+    2100472: 'Material #382'
+    2100474: 'Material #364'
+    2100476: 'Material #341'
+    2100478: 'Material #397'
+    2100480: 'Material #353'
+    2100482: 'Material #399'
+    2100484: 'Material #359'
+    2100486: 'Material #402'
+    2100488: 'Material #401'
+    2100490: 'Material #449'
+    2100492: 'Material #424'
+    2100494: 'Material #444'
+    2100496: 'Material #422'
+    2100498: 'Material #440'
+    2100500: 'Material #426'
+    2100502: 'Material #446'
+    2100504: 'Material #416'
+    2100506: 'Material #432'
+    2100508: 'Material #438'
+    2100510: 'Material #436'
+    2100512: 'Material #434'
+    2100514: 'Material #414'
+    2100516: 'Material #420'
+    2100518: 'Material #418'
+    2100520: 'Material #430'
+    2100522: 'Material #428'
+    2100524: 'Material #447'
+    2100526: 'Material #451'
+    2100528: 'Material #730'
+    2100530: 'Material #612'
+    2100532: 'Material #646'
+    2100534: 'Material #614'
+    2100536: 'Material #648'
+    2100538: 'Material #650'
+    2100540: 'Material #620'
+    2100542: 'Material #638'
+    2100544: 'Material #636'
+    2100546: 'Material #464'
+    2100548: 'Material #616'
+    2100550: 'Material #618'
+    2100552: 'Material #622'
+    2100554: 'Material #642'
+    2100556: 'Material #626'
+    2100558: 'Material #634'
+    2100560: 'Material #632'
+    2100562: 'Material #525'
+    2100564: 'Material #640'
+    2100566: 'Material #644'
+    2100568: 'Material #652'
+    2100570: 'Material #483'
+    2100572: 'Material #499'
+    2100574: 'Material #497'
+    2100576: 'Material #479'
+    2100578: 'Material #481'
+    2100580: 'Material #477'
+    2100582: 'Material #485'
+    2100584: 'Material #504'
+    2100586: 'Material #624'
+    2100588: 'Material #495'
+    2100590: 'Material #493'
+    2100592: 'Material #491'
+    2100594: 'Material #489'
+    2100596: 'Material #507'
+    2100598: 'Material #628'
+    2100600: 'Material #630'
+    2100602: 'Material #666'
+    2100604: 'Material #712'
+    2100606: 'Material #708'
+    2100608: 'Material #691'
+    2100610: 'Material #718'
+    2100612: 'Material #706'
+    2100614: 'Material #720'
+    2100616: 'Material #702'
+    2100618: 'Material #653'
+    2100620: 'Material #678'
+    2100622: 'Material #680'
+    2100624: 'Material #671'
+    2100626: 'Material #677'
+    2100628: 'Material #673'
+    2100630: 'Material #676'
+    2100632: 'Material #682'
+    2100634: 'Material #684'
+    2100636: 'Material #687'
+    2100638: 'Material #722'
+    2100640: 'Material #698'
+    2100642: 'Material #685'
+    2100644: 'Material #689'
+    2100646: 'Material #705'
+    2100648: 'Material #726'
+    2100650: 'Material #724'
+    2100652: 'Material #728'
+    2100654: 'Material #700'
+    2100656: 'Material #710'
+    2100658: 'Material #714'
+    2100660: 'Material #716'
+    2100662: 'Material #3183'
+    2100664: 'Material #844'
+    2100666: 'Material #1311'
+    2100668: 'Material #746'
+    2100670: 'Material #841'
+    2100672: 'Material #837'
+    2100674: 'Material #1309'
+    2100676: 'Material #750'
+    2100678: 'Material #829'
+    2100680: 'Material #1045'
+    2100682: 'Material #824'
+    2100684: 'Material #752'
+    2100686: 'Material #827'
+    2100688: 'Material #843'
+    2100690: 'Material #998'
+    2100692: 'Material #731'
+    2100694: 'Material #1034'
+    2100696: 'Material #969'
+    2100698: 'Material #981'
+    2100700: 'Material #978'
+    2100702: 'Material #1014'
+    2100704: 'Material #979'
+    2100706: 'Material #1031'
+    2100708: 'Material #1052'
+    2100710: 'Material #732'
+    2100712: 'Material #744'
+    2100714: 'Material #991'
+    2100716: 'Material #989'
+    2100718: 'Material #993'
+    2100720: 'Material #1006'
+    2100722: 'Material #1007'
+    2100724: 'Material #997'
+    2100726: 'Material #1313'
+    2100728: 'Material #1315'
+    2100730: 'Material #1013'
+    2100732: 'Material #957'
+    2100734: 'Material #754'
+    2100736: 'Material #1033'
+    2100738: 'Material #748'
+    2100740: 'Material #949'
+    2100742: 'Material #951'
+    2100744: 'Material #953'
+    2100746: 'Material #959'
+    2100748: 'Material #1035'
+    2100750: 'Material #1043'
+    2100752: 'Material #961'
+    2100754: 'Material #965'
+    2100756: 'Material #955'
+    2100758: 'Material #833'
+    2100760: 'Material #831'
+    2100762: 'Material #850'
+    2100764: 'Material #846'
+    2100766: 'Material #1020'
+    2100768: 'Material #770'
+    2100770: 'Material #756'
+    2100772: 'Material #757'
+    2100774: 'Material #818'
+    2100776: 'Material #816'
+    2100778: 'Material #822'
+    2100780: 'Material #835'
+    2100782: 'Material #848'
+    2100784: 'Material #882'
+    2100786: 'Material #1136'
+    2100788: 'Material #983'
+    2100790: 'Material #987'
+    2100792: 'Material #1000'
+    2100794: 'Material #974'
+    2100796: 'Material #1016'
+    2100798: 'Material #1023'
+    2100800: 'Material #1021'
+    2100802: 'Material #1027'
+    2100804: 'Material #972'
+    2100806: 'Material #1037'
+    2100808: 'Material #967'
+    2100810: 'Material #1041'
+    2100812: 'Material #1039'
+    2100814: 'Material #825'
+    2100816: 'Material #963'
+    2100818: 'Material #1051'
+    2100820: 'Material #1049'
+    2100822: 'Material #1134'
+    2100824: 'Material #1140'
+    2100826: 'Material #1138'
+    2100828: 'Material #1142'
+    2100830: 'Material #1054'
+    2100832: 'Material #1132'
+    2100834: 'Material #1133'
+    2100836: 'Material #1317'
+    2100838: 'Material #1008'
+    2100840: 'Material #3097'
+    2100842: 'Material #3182'
+    2100844: 'Material #2486'
+    2100846: 'Material #2488'
+    2100848: 'Material #2493'
+    2100850: 'Material #2505'
+    2100852: 'Material #2507'
+    2100854: 'Material #3716'
+    2100856: 'Material #3717'
+    2100858: 'Material #3743'
+    2100860: 'Material #3844'
+    2100862: 'Material #3941'
+    2100864: 'Material #3942'
+    2100866: 'Material #3943'
+    2100868: 'Material #3944'
+    2300000: JZ01
+    2300002: JZ02
+    2300004: JZ03
+    2300006: JZ04
+    2300008: JZ05
+    2300010: JZ06
+    2300012: JZ07
+    2300014: JZ08
+    2300016: JZ09
+    2300018: JZ10
+    2300020: SHU01
+    2300022: SHU02
+    2300024: SHU03
+    2300026: SHU04
+    2300028: SHU05
+    2300030: SHU06
+    2300032: SHU07
+    2300034: SHU08
+    2300036: SHU09
+    2300038: SHU10
+    2300040: SHU11
+    3300000: JZ01
+    3300002: JZ02
+    3300004: JZ03
+    3300006: JZ04
+    3300008: JZ05
+    3300010: JZ06
+    3300012: JZ07
+    3300014: JZ08
+    3300016: JZ09
+    3300018: JZ10
+    3300020: SHU01
+    3300022: SHU02
+    3300024: SHU03
+    3300026: SHU04
+    3300028: SHU05
+    3300030: SHU06
+    3300032: SHU07
+    3300034: SHU08
+    3300036: SHU09
+    3300038: SHU10
+    3300040: SHU11
+    4300000: JZ01
+    4300002: JZ10
+    4300004: JZ08
+    4300006: JZ06
+    4300008: JZ05
+    4300010: JZ04
+    4300012: JZ03
+    4300014: JZ02
+    4300016: JZ09
+    4300018: JZ07
+    4300020: SHU01
+    4300022: SHU02
+    4300024: SHU07
+    4300026: SHU04
+    4300028: SHU05
+    4300030: SHU06
+    4300032: SHU03
+    4300034: SHU08
+    4300036: SHU09
+    4300038: SHU10
+    4300040: SHU11
+    9500000: //RootNode
+  externalObjects: {}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
