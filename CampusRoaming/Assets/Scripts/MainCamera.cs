@@ -77,6 +77,31 @@ public class MainCamera : MonoBehaviour
             _cmdMove = UserMoveType.MoveBack;
         }
 
+
+        //判断鼠标是否滑动屏幕了
+        if (_cmdRotate == UserMoveType.None)
+        {
+            if (first == VecMax)
+            {
+                first = Input.mousePosition;
+            }
+            else
+            {
+                //记录鼠标拖动的位置  
+                second = Input.mousePosition;// Event.current.mousePosition;
+                if (second.y < first.y) // //讨论鼠标上下移动 鼠标下滑动,距离越远，改动俯仰的程度应该越大，不然镜头扭不动了
+                {
+                    followCom.height -= FollowPlayer.HEIGHT_MOVE_SUB_BASE * getActionSpeed();
+                    followCom.height = Mathf.Max(followCom.height, 0);//视角不能钻到地下！
+                }
+                else if (second.y > first.y) //鼠标上滑动
+                {
+                    followCom.height += FollowPlayer.HEIGHT_MOVE_SUB_BASE * getActionSpeed();
+                }
+                first = second;
+            }
+        }
+
         if (Input.GetKeyDown(KeyCode.Q))
         {
             TestLog.Log("向左转");

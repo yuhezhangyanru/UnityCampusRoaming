@@ -6,6 +6,9 @@ using UnityEngine.UI;
 /// </summary>
 public class UITootMono : MonoBehaviour
 {
+    public Material matDay;
+    public Material matNight;
+
     public Text tip_choose_start_tip;
     public GameObject optionRoot;
 
@@ -126,6 +129,8 @@ public class UITootMono : MonoBehaviour
     public void UpdateLightMode()
     {
         LightObject.SetActive(isDay);
+        updateSkyboxMat(isDay ? matDay : matNight);
+
         TestLog.Log("更新白天还是黑夜方式 isDay=" + isDay);
         txt_tip_light.text = "切换昼夜模式，当前为：" + ( isDay ? "白天模式" : "夜晚模式"); 
         btn_mode_light.transform.Find("text").GetComponent<Text>().text = (!isDay ? "白天模式" : "夜晚模式");
@@ -134,5 +139,10 @@ public class UITootMono : MonoBehaviour
     public void UpdateLog(string log)
     {
         txt_tip.text = log;
+    }
+
+    private void updateSkyboxMat(Material newSkybox)
+    {
+        RenderSettings.skybox = newSkybox;
     }
 }
